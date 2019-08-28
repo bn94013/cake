@@ -1,0 +1,327 @@
+body{
+    font-family: "微软雅黑" !important;
+}
+
+.wrap{
+    display: block;
+    width: 100%;
+    /* height: 4000px; */
+    /* background: red; */
+}
+
+.header{
+    display: block;
+    width: 100%;
+    /* height: 588px; */
+    background: blue;
+}
+
+.serch{
+    display: block;
+    height: 60px;
+    background: #fcf2e1;
+}
+
+.serch_left{
+    display: block;
+    width: 200px;
+    height: 39px;
+    line-height: 39px;
+    margin-left: 15px;
+    font-size: 14px;
+    padding: 9px 0;
+    float: left;
+}
+
+.serch_right{
+    display: block;
+    width: 200px;
+    height: 39px;
+    line-height: 39px;
+    margin-left: 15px;
+    font-size: 14px;
+    padding: 9px 0;
+    float: right;
+}
+
+.color-nav{
+    background: #ee7866 !important;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color: #fff;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.navlogo{
+    display: block;
+    width: 10%;
+}
+
+.navlogo img{
+    display: block;
+    width: 100%;
+}
+
+.nav_plf{
+    display: block;
+    padding-left: 90px;
+}
+
+.gotop{
+    position: fixed;
+    z-index: 999;
+    width: 10%;
+    right: 1%;
+    bottom: 10%;
+}
+
+.gotop img{
+    display: block;
+    width: 80%;
+}
+
+
+
+
+
+
+.nav_main{
+    display: block;
+    width: 97%;
+    height: 90px;
+    margin: 0 auto;
+    /* background: gray; */
+}
+
+.nav_main_logo{
+    display: block;
+    width: 16%;
+    height: 90px;
+    margin-right: 7%;
+    float: left;
+    line-height: 90px;
+    /* background: red; */
+}
+
+.nav_main_conter{
+    display: block;
+    width: 54%;
+    height: 90px;
+    margin-right: 8%;
+    float: left;
+    /* background: yellow; */
+}
+
+.nav_main_mycart{
+    display: block;
+    width: 15%;
+    height: 90px;
+    line-height: 90px;
+    text-align: center;
+    float: left;
+    /* background: green; */
+}
+
+.nav_bar{
+    line-height: 90px;
+    /* display: inline; */
+}
+
+
+
+
+
+
+.cimg img{
+    display: block;
+    width: 100%;
+}
+
+
+.titleh2{
+    width: 100%;
+    display: block;
+    font-size: 40px;
+    padding: 10px;
+    text-align: center;
+    background: #ee7866;
+    /* background: #f2edd7; */
+}
+
+
+.cbox{
+    display: block;
+    width: 100%;
+    margin-top: 70px;
+    background: #00a;
+}
+
+.cbox img{
+    display: block;
+    width: 100%;
+}
+
+.card_box img{
+    display: block;
+    width: 100%;
+    float: left;
+}
+
+.clearbox{
+    clear: both;
+}
+
+.btn_center{
+    display: block;
+    margin: 0 auto;
+}
+
+.btn_right{
+    display: block;
+    margin-left: 90%;
+}
+
+.main_t2_li{
+    display: block;
+    width: 25%;
+    height: 300px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 5%;
+    background: #7ec;
+    position: relative;    
+}
+
+.footer{
+    display: block;
+    width: 100%;
+    /* height: 500px; */
+}
+
+.footer_car{
+    display: block;
+    width: 100%;
+    /* height: 200px; */
+    /* background: #acc; */
+}
+
+.footer_car img{
+    display: block;
+    margin: 0 auto;
+    width: 85%;
+}
+
+.footer_main{
+    display: block;
+    width: 100%;
+    background: #fd7;
+}
+
+
+.pic img{
+    transform:scale(1,1);
+    transition: all 1s ease-out;
+}
+
+.pic img:hover{
+    transform:scale(1.1,1.1);
+}
+
+.gotopimg{
+    opacity: 0.5;
+}
+
+.gotopimg:hover{
+    opacity: 1;
+}
+
+
+
+
+.boxfie{
+    position: fixed;
+    width: 30%;
+    /* background: red; */
+    left: 5%;
+    bottom: 40%;
+    z-index: 9999;
+}
+
+
+
+.juma{
+	display: none;
+    width: 100%;
+    background: #000;
+	position:absolute;
+	z-index: 5;
+}
+
+.juma img{
+    display: block;
+    width: 100%;
+}
+
+@media screen and (max-width: 860px){
+
+    .gotop{
+        position: fixed;
+        z-index: 999;
+        width: 10%;
+        right: 1%;
+        bottom: 10%;
+    }
+    
+    .gotop img{
+        display: block;
+        width: 100%;
+    }
+
+    .boxfie{
+        width: 40%;
+    }
+
+}
+
+@media screen and (max-width: 650px){
+    .gotop{
+        position: fixed;
+        z-index: 999;
+        width: 15%;
+        right: 1%;
+        bottom: 10%;
+    }
+    
+    .gotop img{
+        display: block;
+        width: 100%;
+    }    
+
+    .boxfie{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .gotop{
+        position: fixed;
+        z-index: 999;
+        width: 20%;
+        right: 1%;
+        bottom: 10%;
+    }
+    
+    .gotop img{
+        display: block;
+        width: 100%;
+    }      
+    .boxfie{
+        width: 80%;
+        height: 20%;
+        bottom: 40%;
+    }
+}
