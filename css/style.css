@@ -271,7 +271,8 @@ body{
 }
 
 .cse{
-    display: none;
+    position: absolute;
+    
 }
 
 @media screen and (max-width: 860px){
