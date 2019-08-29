@@ -14,6 +14,12 @@ body{
     width: 100%;
 }
 
+input{
+    display: block;
+    width: 150px;
+    margin: 0 auto;
+}
+
 .serch{
     display: block;
     height: 60px;
